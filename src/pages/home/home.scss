@@ -1,0 +1,40 @@
+
+.home {
+
+  background: url('../../assets/img/x2.png') transparent;
+  background-size: 100%;
+
+  
+  .home-btn {
+      position: absolute;
+      bottom: 40px;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      z-index: 10001;
+  }
+
+  .home-btn button {
+    left: 20%;
+    width: 60%;
+    z-index: 0;
+    margin: 2px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
+  .primary-bg {
+      background-color: #490000;
+      color: white;
+  }
+  .danger-bg {
+      background-color: #770000;
+      color: white;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Menu</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToProfile()">
+        <ion-icon name="person"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="menu">
+
+  <ion-row>
+    <ion-item (click)="gotoHotPromo()" >
+      <ion-card style="background-color: #4349bf">
+        <img src="assets/img/icon/hot-promonew.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #4349bf; background-size: 100%; text-align: center;">
+          <p>
+            HOT PROMO
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+
+    <ion-item (click)="gotoCoupons()">
+      <ion-card style="background-color: #8c6a2a">
+        <img src="assets/img/icon/couponsnew.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #8c6a2a; background-size: 100%; text-align: center;">
+          <p>
+            COUPONS
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-row>
+
+  <ion-row>
+    <ion-item (click)="gotoStoreLocation()">
+      <ion-card style="background-color: #c4b42a">
+        <img src="assets/img/icon/store-locations.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #c4b42a; background-size: 100%; text-align: center;">
+          <p>
+            STORES LOCATION
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+
+    <ion-item (click)="gotoShopOnline()">
+      <ion-card style="background-color: #13877b">
+        <img src="assets/img/icon/shopping.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #13877b; background-size: 100%; text-align: center;">
+          <p>
+            SHOP ONLINE
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-row>
+
+  <ion-row>
+    <ion-item (click)="gotoPoints()">
+      <ion-card style="background-color: #943e7f">
+        <img src="assets/img/icon/pointsnew.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #943e7f; background-size: 100%; text-align: center;">
+          <p>
+            POINTS
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+
+    <ion-item (cilck)="gotoFacebook()">
+      <ion-card style="background-color: #27912f">
+        <img src="assets/img/icon/website.png"/>
+        
+        <ion-card-content style="border-top: 0.1px solid #fff; background: #27912f; background-size: 100%; text-align: center;">
+          <p>
+            Website
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-row>
+</ion-content>

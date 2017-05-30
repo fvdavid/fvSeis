@@ -1,0 +1,22 @@
+.page-store-location {
+
+	background: #fff;
+  	background-size: 100%;
+
+	ion-note {
+	    font-size: 14px;
+	    align-self: flex-start;
+	    //margin-top: 10%;
+	}
+
+	.item-wp ion-thumbnail[item-left] {
+    	margin: 8px 16px 8px -10px;
+  	}
+  	.item-ios ion-thumbnail[item-left] {
+  		margin: 8px 16px 8px -10px;
+  	}
+  	.item-md ion-thumbnail[item-left] {
+  		margin: 8px 16px 8px -10px;
+  	}
+
+}
